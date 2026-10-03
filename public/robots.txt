@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shadabahmedkhan.dev/sitemap.xml
