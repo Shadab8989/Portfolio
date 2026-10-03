@@ -36,11 +36,11 @@ export const capabilityTabs: CapabilityTab[] = [
     caption: "Customer Relationship Management (CRM) collects every customer request in one place, sorts it, sends it to the right person and prepares a reply for them to review. AI helps draft the reply; your team stays in control.",
     proof: "Real system: 150+ users · 20,000+ emails/day · ~40% faster replies",
     steps: [
-      { label: "Requests arrive from all your inboxes", duration: 2500 },
-      { label: "Sorted by type and priority", duration: 1500 },
-      { label: "A request is created with the key details", duration: 2000 },
-      { label: "Assigned to the right person on your support team", duration: 2000 },
-      { label: "AI-assisted reply prepared, follow-up scheduled, then resolved", duration: 4000 }
+      { label: "Requests arrive", duration: 2500 },
+      { label: "Sorted & prioritized", duration: 1500 },
+      { label: "Request created", duration: 2000 },
+      { label: "Assigned to team", duration: 2000 },
+      { label: "AI reply prepared", duration: 4000 }
     ]
   },
   {

@@ -135,8 +135,7 @@ export function Stage() {
       {/* Stage Area */}
       <div
         ref={stageRef}
-        className="glass rounded-[12px] overflow-hidden flex flex-col"
-        style={{ minHeight: 480 }}
+        className="glass rounded-[12px] overflow-hidden flex flex-col h-[520px]"
       >
         {/* Title bar */}
         <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-bg-sub/30">
