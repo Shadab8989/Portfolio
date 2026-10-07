@@ -36,11 +36,11 @@ export const capabilityTabs: CapabilityTab[] = [
     caption: "Customer Relationship Management (CRM) collects every customer request in one place, sorts it, sends it to the right person and prepares a reply for them to review. AI helps draft the reply; your team stays in control.",
     proof: "Real system: 150+ users · 20,000+ emails/day · ~40% faster replies",
     steps: [
-      { label: "Requests arrive", duration: 2500 },
-      { label: "Sorted & prioritized", duration: 1500 },
+      { label: "Request arrives", duration: 2500 },
+      { label: "Categorized", duration: 1500 },
       { label: "Request created", duration: 2000 },
-      { label: "Assigned to team", duration: 2000 },
-      { label: "AI reply prepared", duration: 4000 }
+      { label: "Assigned", duration: 2000 },
+      { label: "Reply & resolution", duration: 4000 }
     ]
   },
   {
@@ -50,8 +50,8 @@ export const capabilityTabs: CapabilityTab[] = [
     proof: "Invoice processing, document reading & accounting connections",
     steps: [
       { label: "Request arrives", duration: 2000 },
-      { label: "Your rules", duration: 2500 },
-      { label: "Handled", duration: 2500 },
+      { label: "Rules applied", duration: 2500 },
+      { label: "Processed", duration: 2500 },
       { label: "Saved", duration: 2000 },
       { label: "Team notified", duration: 2500 }
     ]
@@ -63,9 +63,9 @@ export const capabilityTabs: CapabilityTab[] = [
     proof: "Built for speed, clarity and real daily use",
     steps: [
       { label: "Your idea", duration: 2000 },
-      { label: "Wireframe", duration: 3000 },
-      { label: "Interface", duration: 3000 },
-      { label: "Finished product", duration: 3000 }
+      { label: "Layout planned", duration: 3000 },
+      { label: "Interface built", duration: 3000 },
+      { label: "App ready", duration: 3000 }
     ]
   },
   {
@@ -74,11 +74,11 @@ export const capabilityTabs: CapabilityTab[] = [
     caption: "Connect the tools you already use, including WhatsApp, so information stays up to date everywhere without retyping.",
     proof: "Real system: 4M+ listings · 500K+ records/day synced",
     steps: [
-      { label: "Your tools", duration: 2000 },
+      { label: "Event triggered", duration: 2000 },
+      { label: "Data sent", duration: 2000 },
       { label: "Connected", duration: 2000 },
-      { label: "Matched", duration: 2000 },
-      { label: "Kept in sync", duration: 2000 },
-      { label: "Updated", duration: 3000 }
+      { label: "Synced", duration: 2000 },
+      { label: "Confirmed", duration: 3000 }
     ]
   }
 ];
@@ -122,6 +122,22 @@ export const caseStudies: CaseStudy[] = [
     description: "Organized and routed customer emails for a large support team, with AI-assisted replies that made responses about 40% faster.",
     metrics: ["150+ users", "20,000+ emails/day"],
     tags: ["CRM", "Email Routing", "Dashboards"],
+  },
+  {
+    title: "Workforce Management Platform",
+    badge: "Freelance Client Project",
+    client: "Confidential client",
+    description: "A workforce platform for distributed field teams, with a management dashboard, employee mobile app, location-based attendance, offline support, and digital onboarding.",
+    longDescription: "Worked on a workforce platform that helps managers oversee distributed field teams through a web dashboard. Employees use the mobile app to record attendance and complete onboarding. Attendance records can be saved without a connection and synced when the network returns. My work included location and camera features for attendance checks, access controls that limit what each person can see, and third-party identity-verification (KYC) integrations for onboarding. The React dashboard and React Native app connect to the same Node.js/Express REST API backed by PostgreSQL, with shared JWT authentication and automatic session renewal.",
+    highlights: [
+      "Worked across the management web app, employee mobile app, and shared backend services.",
+      "Worked on saving attendance records offline and syncing them when connectivity returns.",
+      "Worked on secure access controls so managers only see data for their assigned teams and locations.",
+      "Worked with location and camera features for attendance checks, and external identity-verification services for employee onboarding."
+    ],
+    metrics: [],
+    tags: ["React/React Native", "Node.js", "PostgreSQL"],
+    techStack: ["React", "React Native", "TypeScript", "JavaScript", "Node.js", "Express", "PostgreSQL", "Expo", "React Query", "REST APIs", "JWT"],
   },
   {
     title: "Finance & document automation",
